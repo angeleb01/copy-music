@@ -26,4 +26,9 @@ public class PlayList
     public int getIdPlayList(){
         return idPlayList;
     }
+    
+     public void imprimirDetalles(){
+        System.out.println("Esta es la id de la playlist: " + idPlayList);
+        System.out.println("Este es el nombre de la cancion: " + nombre);
+    }
 }

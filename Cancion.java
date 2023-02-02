@@ -13,4 +13,16 @@ public class Cancion
         this.nombre = nombre;
         this.playlist = playlist;
     }
+    
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public String getAutor(){
+        return autor;
+    }
+    
+    public PlayList getPlayList(){
+        return playlist;
+    }
 }

@@ -33,8 +33,15 @@ public class Cancion
     public void setNombre (String nombreN) {
         nombre = nombreN;
     }
-    
+
     public void setplaylist (PlayList playlistN) {
         playlist = playlistN;
+    }
+
+    public void imprimirDetalles(){
+        System.out.println("Este es el nombre de la cancion " + nombre);
+        System.out.println("Este es el nombre del Autor: " + autor);
+        System.out.println("Este es el codigo de la playlist: " + playlist.getIdPlayList());
+        System.out.println("Este es el nombre de la playlist: " + playlist.getNombre());
     }
 }
